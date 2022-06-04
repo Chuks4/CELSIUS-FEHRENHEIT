@@ -93,7 +93,7 @@ button:focus {
 
 /* 
 /* Adding Some Hover Effect To Our Button */
-*/ button:hover {
+button:hover {
   background-color: rgb(219, 100, 219);
   transition: 0.2s ease-in-out;
   color: rgb(235, 215, 235);
