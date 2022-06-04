@@ -1,0 +1,105 @@
+/* Styling All The Selectors */
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding A Background Color To The Body */
+body {
+  background-color: rgb(179, 44, 179);
+}
+
+/* To Center The Box Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border-radius: 25px;
+}
+
+/* Styling The Container Box */
+.box {
+  width: 320px;
+  max-width: 70%;
+  background-color: white;
+  box-shadow: 3px 2px rgb(44, 51, 37);
+  padding: 25px 30px;
+  border-radius: 20px;
+}
+
+/* Styling The H2 */
+.container h2 {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 10px 0 25px;
+  color: #000;
+  text-align: center;
+  color: rgb(179, 44, 179);
+}
+
+/* Adding Style To The Input Element */
+.container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: rgb(199, 83, 199);
+  font-weight: bold;
+  background-color: rgb(235, 215, 235);
+  font-size: 120%;
+}
+
+/* Adding Some Focus Effect To The Input Element */
+.container input:focus {
+  border: 2px solid rgb(199, 83, 199);
+}
+
+/* Styling The Display Result */
+.result {
+  padding: 15px 15px;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(197, 44, 197);
+}
+
+/* To Center The Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Styling The Button */
+button {
+  padding: 8px 15px;
+  background-color: rgb(224, 205, 224);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(153, 15, 153);
+}
+
+/* Adding Some Focus Effect To Our Button */
+button:focus {
+  border: 2px solid rgb(148, 34, 148);
+}
+
+/* 
+/* Adding Some Hover Effect To Our Button */
+*/ button:hover {
+  background-color: rgb(219, 100, 219);
+  transition: 0.2s ease-in-out;
+  color: rgb(235, 215, 235);
+}
+
+/* Adding Color To Our Placholder */
+::placeholder {
+  color: rgb(199, 83, 199);
+}
